@@ -55,31 +55,12 @@ section.skill ul li .icon {
     inset -0.25rem 0.25rem 0.5rem rgba(103, 103, 103, 0.45);
 }
 
-section.skill ul li::before {
-  /* content: "";
-  grid-area: line;
-  height: 0.3rem;
-  border-right: 2px dotted currentColor; */
-}
-
-section.skill ul li::after {
-  /* content: "";
-  grid-area: dot;
-  width: 1rem;
-  aspect-ratio: 1;
-  border-radius: 50%;
-  background: var(--accent-color);
-  justify-self: center;
-  margin-bottom: 0.5rem; */
-}
-
 section.skill ul li .title {
   grid-area: title;
   margin-block: 0.7rem;
   font-size: 1rem;
   font-weight: 600;
   text-align: center;
-  /* text-transform: uppercase; */
 }
 
 section.skill .major {
