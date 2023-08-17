@@ -2,16 +2,19 @@
 .timeline{
 	color:#fff;
   border-top: none !important;
+  cursor: default;
 }
 .timeline ul{
 	list-style-type:none;
 	border-left:4px solid #ddd;
 	padding:10px 5px;
+  
 }
 .timeline ul li{
 	padding:20px 40px;
 	position:relative;
-	cursor:pointer;
+	/* cursor:pointer; */
+  cursor: default;
 	transition:.5s;
 }
 .timeline ul li span.major h2 {
@@ -27,6 +30,10 @@
 	font-size:15px;
   color: black;
 }
+.timeline ul li .content span {
+  color:initial;
+  padding: 0px !important;
+}
 .timeline ul li:before{
 	position:absolute;
 	content:'';
@@ -39,6 +46,7 @@
 	transition:.5s;
   background-color:#A1A1A1;
 	box-shadow:0px 0px 10px 2px #C1C1C1;
+  
 }
 @media (max-width:300px){
 	.timeline{

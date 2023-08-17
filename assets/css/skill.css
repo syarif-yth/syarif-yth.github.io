@@ -10,10 +10,12 @@ section.skill *::after {
 }
 
 section.skill {
+  cursor: default;
   padding-top: 2rem !important;
 }
 
 section.skill ul {
+  cursor: default;
   width: min(60rem, 90%);
   margin-inline: auto;
   margin-top: 40px;
@@ -51,8 +53,10 @@ section.skill ul li .icon {
   border: 0.4rem solid var(--bgColor);
   border-radius: 50%;
   background: var(--accent-color);
-  box-shadow: -0.5rem 0.5rem 1rem rgba(103, 103, 103, 0.45),
-    inset -0.25rem 0.25rem 0.5rem rgba(103, 103, 103, 0.45);
+  /* box-shadow: -0.5rem 0.5rem 1rem rgba(103, 103, 103, 0.45),
+    inset -0.25rem 0.25rem 0.5rem rgba(103, 103, 103, 0.45); */
+    
+	box-shadow:0px 0px 10px 2px #C1C1C1;
 }
 
 section.skill ul li .title {
@@ -67,3 +71,13 @@ section.skill .major {
   text-align: center !important;
 }
 
+.extra {
+  cursor: default;
+}
+
+@media screen and (max-width: 980px) {
+  section.skill ul {
+    width: min(100rem, 90%) !important;
+    gap: 0px !important;
+  }
+}
