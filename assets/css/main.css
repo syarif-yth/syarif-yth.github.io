@@ -1579,7 +1579,9 @@
 
 		a:hover {
 			border-bottom-color: transparent;
-			color: #49bf9d !important;
+			/* color: #ff6e6e !important; */
+			
+			color: #C81026 !important;
 			text-decoration: none;
 		}
 
@@ -2490,7 +2492,8 @@
 		z-index: 1 !important;
 
 		cursor: default;
-		box-shadow:0px 0px 10px 2px #C1C1C1;
+		/* box-shadow:0px 0px 10px 2px #C1C1C1; */
+		box-shadow:0px 0px 7px 0px #414141;
 	}
 
 		#header > * {
