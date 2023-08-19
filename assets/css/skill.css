@@ -77,10 +77,3 @@ section.skill .major {
 .extra {
   cursor: default;
 }
-
-@media screen and (max-width: 980px) {
-  section.skill ul {
-    width: min(100rem, 90%) !important;
-    gap: 0px !important;
-  }
-}

@@ -100,31 +100,3 @@
 }
 
 
-@media screen and (max-width: 980px) {
-  .olcards .li .content {
-    clip-path: unset !important;
-  }
-  .olcards .li .content .first {
-    padding-left: 45px !important;
-  }
-
-  #main section#one {
-    margin-top: 2em !important;
-    padding-left: 2em !important;
-    padding-bottom: 1em !important;
-    width: 91% !important;
-  }
-  #main section#three {
-    padding-left: 0em !important;
-    margin-left: 2em !important;
-  }
-
-  #main section#three ul.labeled-icons {
-    display: inline-block !important; 
-  }
-
-  #main section#three ul.labeled-icons li {
-    margin-bottom: 1em !important;
-  }
-}
-
