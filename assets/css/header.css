@@ -73,13 +73,16 @@
   padding-left: 4em !important;
   padding-bottom: 1em !important;
 }
+#main section#one p {
+  line-height: 1.6em !important;
+}
 #main section#one .major h2,
 #main section#three .major h2 {
   margin-bottom: 0.6em !important;
 }
-#main section#three h2 { 
-  /* color: #C81026 !important; */
-}
+/* #main section#three h2 { 
+  color: #C81026 !important;
+} */
 
 #main section#three {
   margin-top: 2em !important;
