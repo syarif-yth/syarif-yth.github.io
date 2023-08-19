@@ -71,14 +71,19 @@
 #main section#one {
   padding-top: 0em !important;
   padding-left: 4em !important;
-  padding-bottom: 2.1em !important;
+  padding-bottom: 1em !important;
 }
 #main section#one .major h2,
 #main section#three .major h2 {
   margin-bottom: 0.6em !important;
 }
+#main section#three h2 { 
+  /* color: #C81026 !important; */
+}
 
 #main section#three {
+  margin-top: 2em !important;
+  padding-top: 2em !important;
   margin-left: 70px !important;
   border-top: solid 2px #C1C1C1 !important;
 }
