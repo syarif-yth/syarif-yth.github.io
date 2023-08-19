@@ -244,4 +244,7 @@
 
   #main section.skill ul li .title { font-size: 0.9rem; }
   #main section.timeline ul.line li p { line-height: 1.4em !important; }
+  #main section.timeline ul.line li {
+    padding-left: 1.8em !important;
+  }
 }
