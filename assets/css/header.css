@@ -67,17 +67,8 @@
   grid-area: text;
 }
 
-@media screen and (max-width: 980px) {
-  .olcards .li .content {
-    clip-path: unset !important;
-  }
-  .olcards .li .content .first {
-    padding-left: 45px !important;
-  }
-}
 
-#main section#one,
-#main section#three {
+#main section#one {
   padding-top: 0em !important;
   padding-left: 4em !important;
   padding-bottom: 2.1em !important;
@@ -86,3 +77,54 @@
 #main section#three .major h2 {
   margin-bottom: 0.6em !important;
 }
+
+#main section#three {
+  margin-left: 70px !important;
+  border-top: solid 2px #C1C1C1 !important;
+}
+
+#main section#three ul.labeled-icons {
+  display: grid !important; 
+  width: 100% !important;
+  grid-template-columns: 1fr 1fr 1fr; 
+  grid-template-rows: 1fr; 
+  gap: 0.25em 3em;
+}
+
+#main section#three ul.labeled-icons li {
+  padding-top: 0 !important;
+  margin-top: 0 !important;
+}
+#main section#three ul.labeled-icons li a:hover > h3 {
+  color: #C81026 !important;
+}
+
+
+@media screen and (max-width: 980px) {
+  .olcards .li .content {
+    clip-path: unset !important;
+  }
+  .olcards .li .content .first {
+    padding-left: 45px !important;
+  }
+
+  #main section#one {
+    margin-top: 2em !important;
+    padding-left: 2em !important;
+    padding-bottom: 1em !important;
+    width: 91% !important;
+  }
+  #main section#three {
+    padding-left: 0em !important;
+    margin-left: 2em !important;
+  }
+
+  #main section#three ul.labeled-icons {
+    display: inline-block !important; 
+  }
+
+  #main section#three ul.labeled-icons li {
+    margin-bottom: 1em !important;
+  }
+}
+
