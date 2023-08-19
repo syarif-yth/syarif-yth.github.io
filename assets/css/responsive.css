@@ -69,7 +69,8 @@
     top: auto;
     width: 100%;
     display: block;
-    box-shadow: unset !important;
+    /* box-shadow: unset !important; */
+    box-shadow:0px 0px 10px 2px #C1C1C1;
   }
   #header h1 { font-size: 1.75em; }
   #header h1 br { display: inline; }
@@ -87,6 +88,7 @@
     position: relative;
     text-align: center;
     width: 100%;
+    box-shadow:0px 0px 10px 2px #C1C1C1;
   }
 
   #footer .icons { margin: 0 0 1em 0; }
@@ -161,7 +163,7 @@
     width: 95% !important;
   }
 
-  #main section.timeline ul { margin-left: 2em !important; }
+  #main section.timeline ul.line { margin-left: 2em !important; }
   #main section#three {
     margin-left: 0em !important;
     width: 100% !important;
@@ -229,5 +231,5 @@
   }
 
   #main section.skill ul li .title { font-size: 0.9rem; }
-  #main section.timeline ul li p { line-height: 1.4em !important; }
+  #main section.timeline ul.line li p { line-height: 1.4em !important; }
 }

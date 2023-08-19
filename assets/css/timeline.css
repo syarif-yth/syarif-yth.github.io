@@ -1,12 +1,12 @@
 
-.timeline{
+.timeline {
 	color:#fff;
   border-top: none !important;
   cursor: default;
 	padding-top: 0 !important;
 	margin-top: 0 !important;
 }
-.timeline ul{
+.timeline ul.line {
 	list-style-type:none;
 	border-left:4px solid #ddd;
 	padding:10px 5px;
@@ -15,32 +15,32 @@
   padding-bottom: 30px !important;
   margin-bottom: 0px !important;
 }
-.timeline ul li{
+.timeline ul.line li{
 	padding:20px 40px;
 	position:relative;
 	/* cursor:pointer; */
   cursor: default;
-	transition:.5s;
+	transition: 0.5s;
 }
-.timeline ul li span.major h2 {
+.timeline ul.line li span.major h2 {
 	margin-top: 0px !important;
 	font-size: 1.2em !important;
 }
-.timeline ul li .content h2 {
+.timeline ul.line li .content h2 {
 	margin-top:-15px;
   margin-bottom: 10px !important;
 }
-.timeline ul li .content p {
+.timeline ul.line li .content p {
   margin-bottom: 0px !important;
 	padding:5px 0px 10px 0px;
 	font-size:15px;
 	color: #A2A2A2 !important;
 }
-.timeline ul li .content span {
+.timeline ul.line li .content span {
   color:initial;
   padding: 0px !important;
 }
-.timeline ul li:before {
+.timeline ul.line li:before {
 	position:absolute;
 	content:'';
 	width:15px;
@@ -55,4 +55,17 @@
   
 }
 
+.timeline ol.tekno {
+	list-style-type:none !important;
 
+}
+
+.timeline ol.tekno li {
+	content:'';
+	width:10px;
+	height:10px;
+	background-color: #AAA;
+	border-radius:50%;
+  background-color:#A1A1A1;
+	/* box-shadow:0px 0px 10px 2px #C1C1C1; */
+}
