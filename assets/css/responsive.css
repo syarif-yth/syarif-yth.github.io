@@ -247,4 +247,7 @@
   #main section.timeline ul.line li {
     padding-left: 1.8em !important;
   }
+  #main section#one p {
+    line-height: 1.6em !important;
+  }
 }
