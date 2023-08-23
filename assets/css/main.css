@@ -2327,14 +2327,15 @@
 		transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		background-color: transparent;
 		border-radius: 0.35em;
-		border: solid 3px #efefef;
+		/* border: solid 3px #efefef; */
+		border: solid 3px #DDD;
 		color: #787878 !important;
 		cursor: pointer;
 		display: inline-block;
 		font-weight: 400;
-		height: 3.15em;
-		height: calc(2.75em + 6px);
-		line-height: 2.75em;
+		height: 2em;
+		height: calc(2em + 6px);
+		line-height: 2em;
 		min-width: 10em;
 		padding: 0 1.5em;
 		text-align: center;
@@ -2346,8 +2347,8 @@
 		input[type="reset"]:hover,
 		input[type="button"]:hover,
 		.button:hover {
-			border-color: #49bf9d;
-			color: #49bf9d !important;
+			border-color: #C81026;
+			color: #C81026 !important;
 		}
 
 		input[type="submit"]:active,
