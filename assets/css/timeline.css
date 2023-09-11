@@ -15,13 +15,17 @@
   padding-bottom: 30px !important;
   margin-bottom: 0px !important;
 }
-.timeline ul.line li{
+.timeline ul.line li {
 	padding:20px 40px;
 	position:relative;
 	/* cursor:pointer; */
   cursor: default;
 	transition: 0.5s;
 }
+.timeline ul.line li .content .button {
+	margin-top: 10px !important;
+}
+
 .timeline ul.line li span.major h2 {
 	margin-top: 0px !important;
 	font-size: 1.2em !important;
