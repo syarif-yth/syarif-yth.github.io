@@ -338,7 +338,7 @@
 				</ul>
 
 				<ul class="copyright">
-					<li>copyright &copy; 2023</li>
+					<li>copyright &copy; 2023 - <?=date('Y'); ?></li>
 					<li>
 						<a href="https://syarif-yth.github.io/">Syarif YTH</a>
 					</li>
