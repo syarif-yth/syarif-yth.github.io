@@ -68,7 +68,7 @@ module.exports = {
                 "space-lg": "1.5rem",
                 "space-xl": "2rem",
                 "gutter-mobile": "1rem",
-                "container-max": "100rem",
+                "container-max": "90rem",
                 "gutter-desktop": "2rem",
                 "space-xs": "0.5rem",
                 "space-sm": "0.75rem",
